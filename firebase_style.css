@@ -12,6 +12,7 @@ body {
 img{
     height: 100px;
     position: relative;
+     border-radius: 100%;
 }
 .record {
     background-color: #f0f0f0;
