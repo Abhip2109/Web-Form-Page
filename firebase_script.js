@@ -36,7 +36,7 @@ function d(){
          recordElement.classList.add("record");
      
          const img=document.createElement("img");
-         img.src=`https://firebasestorage.googleapis.com/v0/b/contact-form-12a58.appspot.com/o/images%2F${record.name}.jpg?alt=media&token=71c77bdc-b23c-479a-8d70-eff9023fbed4`
+         img.src=`https://firebasestorage.googleapis.com/v0/b/contact-form-12a58.appspot.com/o/images%2F${record.name}.jpeg?alt=media&token=71c77bdc-b23c-479a-8d70-eff9023fbed4`
 
          const nameElement = document.createElement("h2");
          nameElement.textContent = `Name: ${record.name}`;
